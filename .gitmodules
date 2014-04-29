@@ -1,0 +1,6 @@
+[submodule "extends"]
+	path = extends
+	url = git@github.com:CloudCoreo/cloudcoreo-vpc-public.git
+[submodule "server-1"]
+	path = server-1
+	url = git@github.com:CloudCoreo/cloudcoreo-vpc-private.git

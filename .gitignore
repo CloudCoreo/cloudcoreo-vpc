@@ -1,0 +1,14 @@
+**~
+*.pid
+*.out
+*.log
+\#*
+\.\#*
+.project
+.buildpath
+webapp/node_modules/
+Gitane/*
+webapp/Gitane
+webapp/node_modules
+*.gem
+engine/.chef/cookbooks/coreo/recipes/config.rb
