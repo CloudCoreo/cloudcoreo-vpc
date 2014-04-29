@@ -14,6 +14,10 @@ This [CloudCoreo](http://www.cloudcoreo.com) repository will set up a VPC from s
   * required: true
   * description: this is the name of your vpc as defined by your [CloudCoreo](http://www.cloudcoreo.com) setup
   * default: my-vpc
+* <b>NAT_NAME:</b>
+  * required: true
+  * description: this is the name of your NAT as defined by your [CloudCoreo](http://www.cloudcoreo.com) setup
+  * default: NAT
 * <b>VPC_OCTETS:</b>
   * required: true
   * description: the octets for the vpc ip range - i.e. xxx.xxx.xxx.xxx

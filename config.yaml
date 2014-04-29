@@ -5,7 +5,7 @@ variables:
         default: my-vpc
     NAT_NAME:
         required: true
-        description: the name of the VPC
+        description: the name of the NAT
         default: NAT
     VPC_OCTETS:
         required: true
