@@ -8,6 +8,7 @@ This [CloudCoreo](http://www.cloudcoreo.com) repository will set up a VPC from s
 
 <h3>OVERRIDE REQUIRED VARIABLES</h3>
 * <b>NONE</b>
+
 <h3>OVERRIDE OPTIONAL VARIABLES</h3>
 * <b>VPC_NAME:</b>
   * required: true
