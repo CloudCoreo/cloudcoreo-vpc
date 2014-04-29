@@ -3,6 +3,10 @@ variables:
         required: true
         description: the name of the VPC
         default: my-vpc
+    NAT_NAME:
+        required: true
+        description: the name of the VPC
+        default: NAT
     VPC_OCTETS:
         required: true
         description: the octets for the vpc ip range - i.e. xxx.xxx.xxx.xxx
