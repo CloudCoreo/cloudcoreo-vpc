@@ -3,15 +3,23 @@ variables:
         required: true
         description: the name of the VPC
         default: my-vpc
-    PUBLIC_SUBNET_NAME:
-        required: true
-        description: the cloudcoreo name of the public vpc subnets
-        default: my-public-subnet
     VPC_OCTETS:
         required: true
         description: the octets for the vpc ip range - i.e. xxx.xxx.xxx.xxx
         default: 10.0.0.0
+    PUBLIC_SUBNET_NAME:
+        required: true
+        description: the cloudcoreo name of the public vpc subnets
+        default: my-public-subnet
     PUBLIC_ROUTE_NAME:
         required: true
         description: the name to give to the public route
         default: my-public-route
+    PRIVATE_SUBNET_NAME:
+        required: true
+        description: the cloudcoreo name of the private vpc subnets
+        default: my-private-subnet
+    PRIVATE_ROUTE_NAME:
+        required: true
+        description: the name to give to the private route
+        default: my-private-route
