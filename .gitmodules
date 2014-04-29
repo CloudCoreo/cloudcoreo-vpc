@@ -4,3 +4,6 @@
 [submodule "server-1"]
 	path = server-1
 	url = git@github.com:CloudCoreo/cloudcoreo-vpc-private.git
+[submodule "server-private-vpc"]
+	path = server-private-vpc
+	url = git@github.com:CloudCoreo/cloudcoreo-vpc-private.git
