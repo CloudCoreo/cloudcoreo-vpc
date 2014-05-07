@@ -1,9 +1,9 @@
 cloudcoreo-vpc
 ==============
 
-This [CloudCoreo](http://www.cloudcoreo.com) repository will set up a VPC from scratch with public and private subnets across 3 AZ's. In addition, it will create and maintain a <b>mostly-avaialable</b> NAT instance in the publi subnets.
+This [CloudCoreo](http://www.cloudcoreo.com) repository will set up a VPC from scratch with public and private subnets across 3 AZ's. In addition, it will create and maintain a <b>mostly-available</b> NAT instance in the public subnets.
 
-* <b>Mostly-Available</b> refers to the fact that the HA will go down in the event of its AZ outage, but autoscaling will relaunch in a different AZ ensuring minimum downtime of the NAT
+* <b>Mostly-Available</b> refers to the fact that the HA will go down in the event of its AZ outage, but auto scaling will relaunch in a different AZ ensuring minimum downtime of the NAT
 
 
 <h3>OVERRIDE REQUIRED VARIABLES</h3>
