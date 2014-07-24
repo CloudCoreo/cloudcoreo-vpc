@@ -15,6 +15,7 @@ variables:
         required: true
         description: the cloudcoreo name of the public vpc subnets
         default: my-public-subnet
+        type: string
     PUBLIC_ROUTE_NAME:
         required: true
         description: the name to give to the public route
@@ -27,3 +28,9 @@ variables:
         required: true
         description: the name to give to the private route
         default: my-private-route
+    NAT_INGRESS_PORTS:
+        required: true
+        description: allowed ingress ports on the nat
+        default:
+            - "443"
+        type: array
