@@ -3,6 +3,16 @@ variables:
         required: true
         description: the name of the VPC
         default: my-vpc
+    NAT_GROUP_SIZE_MIN:
+        required: true
+        description: the miniumum number of NAT instances to launch
+        default: 1
+        type: number
+    NAT_GROUP_SIZE_MAX:
+        required: true
+        description: the maximum number of NAT instances to launch
+        default: 1
+        type: number
     NAT_NAME:
         required: true
         description: the name of the NAT
