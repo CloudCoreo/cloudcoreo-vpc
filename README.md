@@ -5,6 +5,8 @@ This [CloudCoreo](http://www.cloudcoreo.com) repository will set up a VPC from s
 
 * <b>Mostly-Available</b> refers to the fact that the HA will go down in the event of its AZ outage, but auto scaling will relaunch in a different AZ ensuring minimum downtime of the NAT
 
+## description
+A VPC in 3 datacenters with public and private subnets and an HA-NAT
 
 <h3>OVERRIDE REQUIRED VARIABLES</h3>
 * <b>NONE</b>
