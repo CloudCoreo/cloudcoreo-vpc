@@ -8,6 +8,12 @@ This [CloudCoreo](http://www.cloudcoreo.com) repository will set up a VPC from s
 ## description
 A VPC in 3 datacenters with public and private subnets and an HA-NAT
 
+## tags
+1. Network
+1. VPC
+1. NAT
+1. High Availability
+
 <h3>OVERRIDE REQUIRED VARIABLES</h3>
 * <b>NONE</b>
 
