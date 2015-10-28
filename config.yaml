@@ -38,7 +38,7 @@ variables:
         required: true
         description: the cloudcoreo name of the private vpc subnets
         default: my-private-subnet
-    PRIVATE_SUBNET_IDS:
+    PRIVATE_SUBNETS:
         default: "STACK::coreo_aws_vpc_subnet.my-private-subnet.subnet_ids"
         required: true
         descripiton: comma seperated list of the private subnet ids - the format for a stack variable is 'STACK::<resource type>.<name>.subnet_ids'
