@@ -46,9 +46,3 @@ variables:
         required: true
         description: the name to give to the private route
         default: my-private-route
-    NAT_INGRESS_PORTS:
-        required: true
-        description: allowed ingress ports on the nat
-        default:
-            - "443"
-        type: array
