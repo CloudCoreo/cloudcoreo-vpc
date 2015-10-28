@@ -17,6 +17,10 @@ variables:
         required: true
         description: the name of the NAT
         default: NAT
+    NAT_KEY:
+        required: true
+        description: the key
+        default:  
     VPC_OCTETS:
         required: true
         description: the octets for the vpc ip range - i.e. xxx.xxx.xxx.xxx
