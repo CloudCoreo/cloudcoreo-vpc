@@ -13,6 +13,30 @@ variables:
         description: the maximum number of NAT instances to launch
         default: 1
         type: number
+    NAT_INGRESS_PORTS:
+        required: true
+        description: allowed ingress ports on the nat
+        default:
+            - "0..65535"
+        type: array
+    NAT_INGRESS_CIDRS:
+        required: true
+        description: allowed ingress network cidrs on the nat
+        default :
+            - "0.0.0.0/0"
+        type: array
+    NAT_EGRESS_PORTS:
+        required: true
+        description: allowed ingress ports on the nat
+        default:
+            - "0..65535"
+        type: array
+    NAT_EGRESS_CIDRS:
+        required: true
+        description: allowed ingress network cidrs on the nat
+        default :
+            - "0.0.0.0/0"
+        type: array
     NAT_NAME:
         required: true
         description: the name of the NAT
