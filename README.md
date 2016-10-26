@@ -14,6 +14,10 @@ A VPC in 3 datacenters with public and private subnets and an HA-NAT
 1. NAT
 1. High Availability
 
+## Categories
+
+1. Network
+
 <h3>OVERRIDE REQUIRED VARIABLES</h3>
 * <b>NONE</b>
 
